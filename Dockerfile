@@ -8,5 +8,5 @@ RUN           yum install -y bc lzop
 RUN           npm install -g bower gulp apm grunt-cli
 
 # Set a default command useful for debugging
-ENTRYPOINT ["validate_task.py"]
+ENTRYPOINT ["build_it.sh"]
 
