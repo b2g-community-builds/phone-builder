@@ -1,4 +1,4 @@
-FROM          taskcluster/builder:0.5.6
+FROM          taskcluster/builder:0.5.9
 MAINTAINER    Ronald Claveau <sousmangoosta@ovh.fr>
 
 # Add utilities and configuration
